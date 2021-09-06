@@ -1,0 +1,34 @@
+/* ********************************* TAG SELECTORS ********************* */
+
+body{
+    background-color: aqua;
+}
+
+h1{
+    color: red;
+    font-size: 200px;
+}
+
+img{
+    width: 200px;
+    background-color: red;
+}
+
+img:hover{ /* hover is pseudo class */
+    width: 200px;
+    background-color: gold;
+}
+
+/* ********************************* CLASS SELECTORS ********************* */
+.pizza{
+    background-color: green;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+/* ********************************* ID SELECTORS ********************* */
+#heading{
+    color: blueviolet;
+}

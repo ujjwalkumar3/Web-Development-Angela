@@ -1,0 +1,34 @@
+body{
+    margin: 0; /* if we are writing 0 so no need to write px, cm or % */
+}
+
+h1{
+    margin: 0;
+}
+
+/* div{
+    background-color: #E4F9F5;
+} */
+
+.top-container{
+    height: 200px;
+    width: 200px;
+    border: solid 10px;
+    background-color: #E4F9F5;
+}
+
+.middle-container{
+    height: 200px;
+    width: 200px;
+    border: solid 20px;
+    margin-left: 200px;
+    background-color: red;
+}
+
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    border: solid 10px;
+    margin-left: 500px;
+    background-color: yellow;
+}

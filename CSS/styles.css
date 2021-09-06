@@ -1,0 +1,27 @@
+/* external stylesheet */
+body {
+  background-color: #80ed99;
+}
+
+hr {
+  background-color: white;
+  border-style: dotted none none; /* top | left and right | bottom */
+  border-style: none;
+  border-color: rgb(145, 132, 132);
+  border-top-style: dotted;
+  border-width: 10px;
+  height: 2px;
+  width: 10%;
+}
+
+h1{
+  color: aqua;
+}
+
+h3{
+  color: palevioletred;
+}
+
+img {
+  height: 200px;
+}

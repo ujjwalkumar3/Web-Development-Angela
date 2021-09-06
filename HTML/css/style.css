@@ -1,0 +1,20 @@
+/* external stylesheet */
+
+body {
+    background-color: #80ed99;
+  }
+  
+  hr {
+    background-color: white;
+    border-style: none;
+    border-color: rgb(145, 132, 132);
+    border-top-style: dashed;
+    border-width: 10px;
+    height: 2px;
+    width: 10%;
+  }
+  
+  img {
+    height: 200px;
+  }
+  

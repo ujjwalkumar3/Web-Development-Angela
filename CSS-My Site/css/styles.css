@@ -1,0 +1,178 @@
+body{
+    color: #40514E;
+    margin: 0; /* if we are writing 0 so no need to write px, cm or % */
+    text-align: center; /* it will set which doesn't have width */
+    /* font-family: verdana, sans-serif; /*it affects all text, first it will do verdana if it there else sans serif, by default serif font */
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+}
+
+h1{
+    /* width: 10%; */
+    color: #66BFBF;
+    line-height: 2;
+    margin-top: 50px auto 0 auto;
+    /*font-size: 562.5%; /* 100% means 16 px size, 562.5% is 90px */
+    /* font-size: 6em; /*1em is 16 px, dynamically size */
+    font-size: 6rem; /* rem i.e root m not add em from body i.e. upstream changes */
+    font-family: 'Sacramento', cursive;
+    /* margin: 0 auto 0 auto; */
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+p{
+   font-weight: normal;
+   line-height: 2;
+}
+
+h2{
+    color: #66BFBF;
+    font-family: cursive, sans-serif;
+    padding-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: rgb(140, 0, 255);
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none; /* it removes underline that is there in link */
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+/* img{
+    position: relative;
+    left: 300px;
+    display: inline-block;
+} */
+
+/* div{
+    background-color: #E4F9F5;
+} */
+
+.top-container{
+    position: relative;
+    background-color: #E4F9F5;
+    padding-top: 100px;
+}
+
+.pro{
+    text-decoration: underline;
+    font-weight: bold;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 250px;
+}
+
+hr{
+    border: dotted #dac50a 6px; /* 6px in width, 0px height, color, and dotted*/
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.code-img{
+    width: 25%;
+    margin-right: 30px;
+    float: left; /* wrap around image. so image in left and text in right */
+}
+
+.chilli-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.code-skills{
+    clear: left; /* text will not wrap around image using this */
+
+}
+
+.intro{
+    margin: auto;
+    width: 30%;
+}
+
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+.btn {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 40px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #D01E43;
+    background-image: -webkit-linear-gradient(top, #D01E43, #8AF63D);
+    background-image: -moz-linear-gradient(top, #D01E43, #8AF63D);
+    background-image: -ms-linear-gradient(top, #D01E43, #8AF63D);
+    background-image: -o-linear-gradient(top, #D01E43, #8AF63D);
+    background-image: -webkit-gradient(to bottom, #D01E43, #8AF63D);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
